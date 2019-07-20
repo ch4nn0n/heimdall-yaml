@@ -4,6 +4,4 @@ WORKDIR /app
 
 COPY . .
 
-RUN mkdir -p /config/www && touch /config/www/app.sqlite
-
 ENTRYPOINT sh
