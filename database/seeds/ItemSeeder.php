@@ -4,6 +4,7 @@ use Illuminate\Database\Seeder;
 use App\Item;
 use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Facades\File;
+use Symfony\Component\Yaml\Yaml;
 
 class ItemSeeder extends Seeder
 {
@@ -16,7 +17,7 @@ class ItemSeeder extends Seeder
     {
         DB::table('items')->delete();
         $data = File::get("/config/data.yaml");
-        $config = yaml_parse($data)['config'];
+        $config = Yaml::parse($data)['config'];
         $items = $config['items'];
 
         foreach ($items as $obj) {
