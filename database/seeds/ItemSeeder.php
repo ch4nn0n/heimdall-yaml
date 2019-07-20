@@ -26,7 +26,7 @@ class ItemSeeder extends Seeder
                 'url' => $obj['url'] ?? null,
                 'pinned' => $obj['pinned'] ?? null,
                 'colour' => $obj['colour'] ?? null,
-                'logo' => $obj['logo'] ?? null
+                'icon' => $obj['icon'] ?? null
             ));
         }
     }
