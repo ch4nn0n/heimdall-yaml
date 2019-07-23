@@ -22,10 +22,10 @@ class ItemSeeder extends Seeder
 
         foreach ($items as $obj) {
             Item::create(array(
-                'title' => $obj['title'],
+                'title' => $obj['title'], # TODO: add logic to look up to see if it is already supported
                 'url' => $obj['url'] ?? null,
-                'pinned' => $obj['pinned'] ?? null,
-                'colour' => $obj['colour'] ?? null,
+                'pinned' => $obj['pinned'] ?? true,
+                'colour' => $obj['colour'] ?? null, # TODO: change to boolean dark or light
                 'icon' => $obj['icon'] ?? null
             ));
         }
