@@ -12,4 +12,4 @@ php artisan migrate --force
 
 php artisan db:seed --force
 
-cp -rf /images/. /config/www/icons
+cp -af /images/. /config/www/icons
