@@ -13,3 +13,5 @@ php artisan migrate --force
 php artisan db:seed --force
 
 cp -af /images/. /config/www/icons
+
+cp -af /app/deployment.env /config/www/.env
