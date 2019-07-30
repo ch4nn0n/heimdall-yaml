@@ -15,6 +15,3 @@ php artisan db:seed --force
 cp -af /images/. /config/www/icons
 
 cp -af /app/deployment.env /config/www/.env
-
-cp -af /certs/tls.key /config/keys/cert.key
-cp -af /certs/tls.crt /config/keys/cert.crt
