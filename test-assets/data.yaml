@@ -1,0 +1,81 @@
+
+service:
+  port: 443
+
+config:
+  items:
+    - title: Access
+      url: https://access.monitoring.k8sv2.payperback.net
+      icon: icons/kubernetes.svg
+      colour: "#fafbfc"
+    - title: Alert Manager
+      url: https://alertmanager.monitoring.k8sv2.payperback.net
+      colour: "#fafbfc"
+      icon: icons/prometheus.png
+    - title: Cerebro
+      url: https://cerebro.monitoring.k8sv2.payperback.net/#/overview?host=Elasticsearch%20Monitoring
+      colour: "#161b1f"
+      icon: icons/cerebro.png
+    - title: CodeClimate
+      url: https://codeclimate.com/accounts/555325aa695680685e00dbf0/dashboard
+      colour: "#161b1f"
+      icon: icons/codeclimate.png
+    - title: CodeShip
+      url: https://app.codeship.com/bitgamelabs
+      colour: "#fafbfc"
+      icon: icons/codeship.png
+    - title: Consul
+      url: https://consul.monitoring.k8sv2.payperback.net
+      colour: "#fafbfc"
+      icon: icons/consul.svg
+    - title: Github
+      url: https://github.com/bitgaming
+      colour: "#161b1f"
+      icon: icons/github.png
+    - title: Grafana
+      url: https://grafana.monitoring.k8sv2.payperback.net
+      colour: "#161b1f"
+      icon: icons/grafana.png
+    - title: Kibana
+      url: https://kibana.monitoring.k8sv2.payperback.net
+      colour: "#fafbfc"
+      icon: icons/kibana.png
+    - title: Opex
+      url: https://opex.monitoring.k8sv2.payperback.net
+      colour: "#fafbfc"
+      icon: icons/bgl.png
+    - title: Prometheus (monitoring)
+      url: https://prometheus.monitoring.k8sv2.payperback.net
+      colour: "#fafbfc"
+      icon: icons/prometheus.png
+    - title: Prometheus (dev)
+      url: https://prometheus.dev.k8sv2.payperback.net
+      colour: "#fafbfc"
+      icon: icons/prometheus.png
+    - title: Prometheus (int)
+      url: https://prometheus.int.k8sv2.payperback.net
+      colour: "#fafbfc"
+      icon: icons/prometheus.png
+    - title: Prometheus (stg)
+      url: https://prometheus.stg.k8sv2.payperback.net
+      colour: "#fafbfc"
+      icon: icons/prometheus.png
+    - title: Prometheus (prod)
+      url: https://prometheus.prod.k8sv2.payperback.net
+      colour: "#fafbfc"
+      icon: icons/prometheus.png
+    - title: Thanos
+      url: https://thanos.monitoring.k8sv2.payperback.net
+      colour: "#fafbfc"
+      icon: icons/thanos.png
+    - title: Vault
+      url: https://vault.monitoring.k8sv2.payperback.net
+      colour: "#fafbfc"
+      icon: icons/vault.svg
+    - title: VictorOps
+      url: https://portal.victorops.com/client/private69
+      colour: "#fafbfc"
+      icon: icons/victorops.jpg
+
+env:
+

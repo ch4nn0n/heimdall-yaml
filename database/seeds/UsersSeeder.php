@@ -15,10 +15,10 @@ class UsersSeeder extends Seeder
         // Groups
         if(!$user = User::find(1)) {
             $user = new User;
-            $user->id = 1;
             $user->username = 'admin';
-            $user->email = 'admin@test.com';
-            $user->password = null;
+            $user->email = 'admin@bgl.hk';
+            $user->password = bcrypt('admin123'); // TODO: take from yaml
+            $user->public_front = '1';
             $user->save();
         } else {
             //$user->save();

@@ -15,8 +15,10 @@ class ItemSeeder extends Seeder
      */
     public function run()
     {
+        $config_dir = env('CONFIG_YAML');
+
         DB::table('items')->delete();
-        $data = File::get("/config/data.yaml");
+        $data = File::get($config_dir);
         $config = Yaml::parse($data)['config'];
         $items = $config['items'];
 
