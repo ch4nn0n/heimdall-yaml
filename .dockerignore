@@ -1,0 +1,16 @@
+test-assets
+temp
+.gitignore
+Makefile
+LICENSE
+Dockerfile
+
+webpack.mix.js
+phpunit.xml
+package.json
+server.php
+
+resources
+storage
+
+database/factories
